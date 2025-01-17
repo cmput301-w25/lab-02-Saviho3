@@ -9,6 +9,8 @@
 ## References and Resources
 
 List any resources used here, or simply put `N/A` if not applicable.
+https://www.youtube.com/watch?v=4Cbk2vK0FLU
+https://developer.android.com/develop/ui/views/components/button
 
 ## Verbal Collaboration
 
