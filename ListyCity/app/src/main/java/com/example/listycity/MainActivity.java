@@ -75,11 +75,13 @@ public class MainActivity extends AppCompatActivity {
             @Override
             public void onClick(View v) {
                 String str = editCity.getText().toString();
-                dataList.add(str);
-                cityAdapter.notifyDataSetChanged();
-                editCity.setVisibility(View.INVISIBLE);
-                confirm.setVisibility(View.INVISIBLE);
-            }
+                if (!str.isEmpty()) {
+                    dataList.add(str);
+                    cityAdapter.notifyDataSetChanged();
+                    editCity.setVisibility(View.INVISIBLE);
+                    confirm.setVisibility(View.INVISIBLE);
+                }
+                }
         });
 
 
